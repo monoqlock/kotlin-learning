@@ -48,7 +48,7 @@ class MyInt(val value: Int) {
     operator fun plus(that: MyInt): MyInt = MyInt(value + that.value)
 }
 
-// compaion object
+// companion object
 class Circle(val radius: Double, val x: Double = 0.0, val y: Double = 0.0) {
     companion object {
         val PI = 3.14
